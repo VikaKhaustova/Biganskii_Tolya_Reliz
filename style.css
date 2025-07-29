@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Quicksand:wght@300..700&display=swap');
+
+
+body {
+    background-color: #6EEC8D;
+}
+
+
+.logo1 {
+    font-family: 'Jersey 20';
+    font-size: 120px;
+    text-align: center;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+.info {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+
+.info-text {
+    width: 50%;
+}
+
+
+.info-text p {
+    font-family: Roboto;
+    font-size: 30px;
+}
+
+
+.info-img {
+    width: 40vw;
+}
+
+
+h1 {
+    text-align: center;
+    font-family: 'Playfair Display SC';
+    font-size: 50px;
+    margin-top: 80px;
+}
+
+
+.animal{
+    background-color: #65E243;
+    display: flex;
+    align-items: center;
+    margin: 30px 80px;
+    padding: 50px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.animal-first{
+    width: 100px;
+}
+.animal-img{
+    width: 150px;
+}
+
+
+.animal-last{
+    width: 200px;
+}
+
+
+.animal-text{
+   font-family: "Playfair Display", serif;
+   width: 50%;
+   font-size: 30px;
+}
+
+
+.video{
+   display: flex;
+   justify-content: center;
+}
+
+
+.video iframe{
+    width: 80%;
+    height: 500px;
+}
+
+
+
+
+li{
+   font-family: "Playfair Display", serif;
+   font-size: 30px;
+   width: 80vw;
+}
+
+
+.lifehack{
+    margin: 0 8vw;
+}
+
+
+.advantages{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.advantages li{
+   font-family: "Playfair Display", serif;
+   font-size: 30px;
+   width: 50vw;
+}
+
+
+.advantages img {
+    width: 30vw;
+}
+
+
+footer {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+footer img{
+    width: 200px;
+}
+
+
+footer p{
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+}
